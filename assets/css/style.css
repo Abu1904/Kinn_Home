@@ -357,11 +357,11 @@ border-bottom: 2px solid #56593D;
 }
 .main_link_box_second{
   width: 100%;
-  min-width: 115px;
-  max-width: 115px;
+  min-width: 111px;
+  max-width: 111px;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 23px;
   text-align: center;
   color: #56593D;
   border-bottom: 2px solid transparent ;
