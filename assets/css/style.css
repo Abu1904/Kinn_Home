@@ -98,10 +98,39 @@ color: #56593D;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 20px;
 }
-.main_links_box_first{
+.main_link_box_first{
+width: 100%;
+min-width: 85px;
+max-width: 85px;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #56593D;
 
+  border-bottom: 2px solid transparent ;
 }
+.main_link_box_first:hover{
+color: #56593D;
+border-bottom: 2px solid #56593D;
+}
+.main_link_box_second{
+  width: 100%;
+  min-width: 111px;
+  max-width: 111px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #56593D;
+  border-bottom: 2px solid transparent ;
+  }
+  .main_link_box_second:hover{
+    color: #56593D;
+    border-bottom: 2px solid #56593D;
+    }
 
 
 
@@ -274,4 +303,72 @@ color: #56593D;
     background-color: #56593D;
     margin-right: auto;
   }
+}
+
+@media(max-width :1200px) {
+.main_box {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 80vh;
+  max-height: 80vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.main_text_box{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.main_text_box_h1{
+  width: 100%;
+  height: 100%;
+  min-width: 300px;
+  max-width: 300px;
+  font-weight: normal;
+font-size: 30px;
+line-height: 31px;
+text-align: center;
+color: #56593D;
+}
+.main_links_box{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+.main_link_box_first{
+width: 100%;
+min-width: 85px;
+max-width: 85px;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #56593D;
+
+  border-bottom: 2px solid transparent ;
+}
+.main_link_box_first:hover{
+color: #56593D;
+border-bottom: 2px solid #56593D;
+}
+.main_link_box_second{
+  width: 100%;
+  min-width: 111px;
+  max-width: 111px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #56593D;
+  border-bottom: 2px solid transparent ;
+  }
+  .main_link_box_second:hover{
+    color: #56593D;
+    border-bottom: 2px solid #56593D;
+    }
+
 }
