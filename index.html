@@ -20,6 +20,61 @@
 
 <body>
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand navbar_logo1" href="#">KINN</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item  nav_links dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SHOP
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item nav_links">
+            <a class="nav-link" href="#">STYLE QUIZ</a>
+          </li>
+          <li class="nav-item nav_links">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item nav_links dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              SRORIES
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item logo">
+            <a class="nav-link" href="#">KINN</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <i class="bi bi-person navbar_icon1"></i>
+          <i class="bi bi-search navbar_icon"></i>
+          <i class="bi bi-bag navbar_icon"></i>
+        </form>
+      </div>
+    </div>
+  </nav>
 
   <header class=" header_card">
     <div class="container">
@@ -59,20 +114,13 @@
 
   <section class="section1_card">
     <div class="container">
-      <div class="  section1_box">
-        <h1 class="section1_nav_text">Maple Board Collection</h1>
+      <div class="section1_box">
+        <h1 class="section1_nav_text row">Maple Board Collection</h1>
         <div class="col-12 section1_cards_box">
-          <div class="section1_second_card">
-            <img class="section1_cards_img" src="/static/images/download/PNG/Rectangle (62).png" alt="">
-            <p class="section1_cards_p1">
-              Maple Board - Long
-            </p>
-            <p class="section1_cards_p2">
-              $125.00
-            </p>
-          </div>
-          <div class="section1_fist_card ">
-            <img class="section1_cards_img" src="/static/images/download/PNG/Rectangle (61).png" alt="">
+
+
+          <div class="section1_fist_card col-12 col-lg-4 col-md-6">
+            <img class="section1_cards_img img-fluid  " src="/static/images/download/PNG/Rectangle (61).png" alt="">
             <p class="section1_cards_p1">
               Maple Board - Short
             </p>
@@ -80,8 +128,20 @@
               $98.00
             </p>
           </div>
-          <div class="section1_third_card">
-            <img class="section1_cards_img" src="/static/images/download/PNG/Rectangle (63).png" alt="">
+
+          <div class="section1_second_card col-12 col-lg-4 col-md-6">
+            <img class="section1_cards_img img-fluid " src="/static/images/download/PNG/Rectangle (62).png" alt="">
+            <p class="section1_cards_p1">
+              Maple Board - Long
+            </p>
+            <p class="section1_cards_p2">
+              $125.00
+            </p>
+          </div>
+
+
+          <div class="section1_third_card  col-12 col-lg-4 col-md-6">
+            <img class="section1_cards_img  " src="/static/images/download/PNG/Rectangle (63).png" alt="">
             <p class="section1_cards_p1">
               Maple Board - Long
             </p>
@@ -95,15 +155,44 @@
     </div>
   </section>
 
-  <section class="container">
-    <div class="">
-    <div class="row section2_box ">
-      <div class="section2_img_box">
-        
+  <!-- 
+  <section>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="col-12 col-lg-4 col-md-6">
+            <img class="section1_cards_img img-fluid col-12 col-lg-4 col-md-5" src="/static/images/download/PNG/Rectangle (62).png" alt="">
+            <p class="section1_cards_p1">
+              Maple Board - Long
+            </p>
+            <p class="section1_cards_p2">
+              $125.00
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-4 col-md-3">
+            <img class="section1_cards_img img-fluid col-12 col-lg-4 col-md-6" src="/static/images/download/PNG/Rectangle (62).png" alt="">
+            <p class="section1_cards_p1">
+              Maple Board - Long
+            </p>
+            <p class="section1_cards_p2">
+              $125.00
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-4 col-md-6">
+            <img class="section1_cards_img img-fluid col-12 col-lg-4 col-md-6" src="/static/images/download/PNG/Rectangle (62).png" alt="">
+            <p class="section1_cards_p1">
+              Maple Board - Long
+            </p>
+            <p class="section1_cards_p2">
+              $125.00
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-  </section>
+  </section> -->
 
   <!-- ---------- JavaScript ---------- -->
   <script src="./plugins/constructor/constructor.js"></script>
