@@ -207,19 +207,19 @@
 }
 
 .section1_fist_card {
-  background-color: red;
+
   width: 415px;
   height: auto;
 }
 
 .section1_second_card {
-  background-color: green;
+
   width: 415px;
   height: auto;
 }
 
 .section1_third_card {
-  background-color: blue;
+
   width: 415px;
   height: auto;
 }
@@ -569,8 +569,7 @@
     background: #FFFFEF;
     padding: 30px;
     display: grid;
-    align-items: center;
-    justify-content: center;
+    place-items: center;
     text-align: center;
   }
 
@@ -641,7 +640,7 @@
 }
 
 
-@media(max-width :500px) {
+@media(max-width :600px) {
   .section1_box {
     width: 100%;
     min-width: 425px;
@@ -675,15 +674,20 @@
   }
 
   .section1_fist_card {
-    display: grid;
-    align-items: flex-start;
-    justify-content: start;
+    width: 410px;
+    height: auto;
 
   }
 
-  .section1_second_card {}
+  .section1_second_card {
+    width: 410px;
+    height: auto;
+  }
 
-  .section1_third_card {}
+  .section1_third_card {
+    width: 410px;
+    height: auto;
+  }
 
   .section1_cards_img {
     width: 100%;
